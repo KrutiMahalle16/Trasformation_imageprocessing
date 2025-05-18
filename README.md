@@ -35,5 +35,17 @@ This project focuses on exploring geometric transformations such as **dilation**
 * Mechanism: Flips the image horizontally or vertically
 * Result: Creates a mirror image along the specified axis
 
-
+### Usage
+Load an image using OpenCV
+Apply each of the filters using OpenCV functions:
+cv2.GaussianBlur()
+cv2.Sobel()
+cv2.medianBlur()
+Apply transformations using:
+cv2.dilate()
+Translation via transformation matrices
+cv2.getRotationMatrix2D() and cv2.warpAffine() for rotation
+cv2.flip() for reflection
+Visualize the results using Matplotlib
+Compare the outcomes to analyze the effects of each filter and transformation
 
